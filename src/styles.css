@@ -48,6 +48,13 @@ footer {
     align-items: center;
 }
 
+@media only screen and (max-width: 600px) {
+    .sub-pages-footer {
+        position: relative;
+    }
+
+}
+
 footer ul {
     display: flex;
     padding: 30px;
@@ -143,12 +150,25 @@ h3 {
 }
 
 .sub-page-footer {
-    position: relative;
+    position: fixed;
 }
 
 @media only screen and (max-width: 600px) {
     .socials {
         display: none;
     }
+}
 
+/* About me */
+
+.about-me {
+    width: 50%;
+    text-align: center;
+}
+
+.about-me img {
+    border-radius: 50%;
+    height: 200px;
+    margin: 10px -20px;
+    
 }
