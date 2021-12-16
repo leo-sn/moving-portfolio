@@ -15,12 +15,20 @@
         </header>
 
         <section>
-            <h2 class="subtitle">Contact</h2>
-            <form action="https://formsubmit.co/el/ronobu" method="POST"></form>
-                <input type="hidden" name="_captcha" value="false">
-                <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
 
-            </form>
+            <div class="form-submit">
+                <h2 class="subtitle">Contact</h2>
+                <form  target="_blank" action="https://formsubmit.co/snasc.leonardo@gmail.com" method="POST">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="https://leo-sn.github.io/moving-portfolio/src/pages/thankyou.html">
+                    <div class="form-row">
+                        <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+                        <input type="email" name="email" class="form-control" placeholder="Email" required>
+                    </div>
+                    <textarea placeholder="Your Message" name="message" rows="10" required></textarea>
+                    <button type="submit">Submit Form</button>
+                </form>
+            </div>
         </section>
 
         <footer class="sub-pages-footer">
