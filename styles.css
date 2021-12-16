@@ -21,3 +21,23 @@ header ul {
     display: flex;
     padding: 10px 10px 50px 10px;
 }
+
+h1 {
+    font-size: 160px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.hero-section {
+    text-align: center;
+    margin-top: 17vh;
+}
+
+.light-text {
+    font-weight: 100;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
