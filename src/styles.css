@@ -43,7 +43,7 @@ footer {
     position: fixed;
     bottom: 0;
     left: 0;
-    width: 100vw;
+    width: 100%;
     flex-direction: column;
     align-items: center;
 }
@@ -51,6 +51,7 @@ footer {
 @media only screen and (max-width: 600px) {
     .sub-pages-footer {
         position: relative;
+        margin-top: 30px;
     }
 
 }
@@ -169,7 +170,8 @@ h3 {
 .about-me img {
     border-radius: 50%;
     height: 200px;
-    margin: 10px -20px;
+    margin-top: 10px;
+    margin-left: -10px;
     
 }
 
@@ -242,4 +244,35 @@ form button {
 
 form button:hover{
     background-color:rgb(158, 1, 1);
+}
+
+/* stack image config */
+.stack-container {
+    display:flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    height: 300px;
+}
+
+.stack {
+    width: 33%;
+    padding: 20px;
+    height: auto;
+}
+
+.stack-image {
+    margin-top: 10px;
+    width:  100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+    max-height: 475px;
+}
+
+@media only screen and (max-width: 600px) {
+    .stack-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
 }
